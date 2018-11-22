@@ -17,7 +17,6 @@
     <style>
         html,
         body {
-
           image-rendering: optimizeSpeed;              /* Older versions of FF */
           image-rendering: -moz-crisp-edges;           /* FF 6.0+ */
           image-rendering: -webkit-optimize-contrast;  /* Webkit (non standard naming) */
@@ -26,17 +25,15 @@
           -ms-interpolation-mode: nearest-neighbor;    /* IE (non standard naming) */
           image-rendering: pixelated;                  /* Chrome 41 */
         }
-
-            /* @font-face {
-                font-family: 'Kells';
-                src: url('assets/fonts/kells_uncial.ttf');
-            }
-
-            .fontPreload {
-                font-family: 'Kells';
-                position:absolute;
-                left:-100px;
-            } */
+        @font-face {
+            font-family: 'Kells';
+            src: url('assets/fonts/kells_uncial.ttf');
+        }
+        .fontPreload {
+            font-family: 'Kells';
+            position:absolute;
+            left:-100px;
+        }
     </style>
 </head>
 
@@ -52,7 +49,7 @@
       <h3>Left</h3>
       <h3>Right</h3>
     </aside>
-    <!-- <div class="fontPreload">.</div> -->
+    <div class="fontPreload">.</div>
 
 <div id="game-container">
 </div>
