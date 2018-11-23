@@ -16,6 +16,8 @@ let config = {
     type: Phaser.AUTO,
     width: 680,
     height: 400,
+    // width: 480,
+    // height: 300,
     parent: 'game-container',
     zoom: 1.5,
     pixelArt: true,

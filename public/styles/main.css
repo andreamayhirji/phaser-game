@@ -27,7 +27,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 5em 0 1em 0;
+  padding: 2em 0 1em 0;
 }
 .game__container {
   flex-basis: 100%;
