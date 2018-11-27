@@ -15,6 +15,12 @@ $(() => {
   }
 
   //iterate through the score data
+  // function renderScores(scores){
+  //   scores.forEach(function (score) {
+  //     $('#scores').append(createScoreTableRows(score));
+  //   });
+  // }
+  //itterate through score data and only show first 5
   function renderScores(scores){
     scores.forEach(function (score) {
       $('#scores').append(createScoreTableRows(score));
